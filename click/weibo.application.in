@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <description>Weibo scope</description>
+  <desktop-entry>@SCOPE_INSTALL_NAME@.desktop</desktop-entry>
+  <services>
+    <service id="@SCOPE_INSTALL_NAME@">
+      <description>Watch your favorite Weibo messages</description>
+    </service>
+  </services>
+</application>

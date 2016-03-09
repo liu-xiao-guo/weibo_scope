@@ -1,0 +1,11 @@
+//manifest.json
+//apparmor.json
+//weibo.provider
+//weibo.service
+//weibo.application
+//qml-plugin/Main.qml
+/weibo/libweibo.ubuntu_weibo.so
+/weibo/weibo.ubuntu_weibo.ini
+/weibo/icon.png
+/weibo/logo.png
+/weibo/screenshot.png

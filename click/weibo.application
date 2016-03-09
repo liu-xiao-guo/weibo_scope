@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <description>Weibo scope</description>
+  <desktop-entry>weibo.ubuntu_weibo.desktop</desktop-entry>
+  <services>
+    <service id="weibo.ubuntu_weibo">
+      <description>Watch your favorite Weibo messages</description>
+    </service>
+  </services>
+</application>

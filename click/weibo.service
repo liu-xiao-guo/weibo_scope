@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+  <type>sharing</type>
+  <name>Kaixin scope</name>
+  <icon>kaixin/icon.png</icon>
+  <provider>weibo.ubuntu_accounts</provider>
+  <translations>unity-scope-weibo</translations>
+</service>

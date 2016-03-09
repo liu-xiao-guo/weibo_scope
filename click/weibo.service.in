@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+  <type>sharing</type>
+  <name>Weibo scope</name>
+  <icon>weibo/icon.png</icon>
+  <provider>@SCOPE_ACCOUNTS_NAME@</provider>
+  <translations>unity-scope-weibo</translations>
+</service>

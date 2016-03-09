@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="gtest" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\src\;CMake Files\..\..\..\..\usr\src\gmock\;CMake Files\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\usr\src\gtest\cmake\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\;CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\;CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Core\;CMake Files\cmake\;CMake Files\click\;CMake Files\src\;CMake Files\data\;CMake Files\po\;CMake Files\tests\;CMake Files\tests\unit\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/liuxg/demos/weibo/tests/gmock/gtest" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest">
+         <Option output="/home/liuxg/demos/weibo/tests/gmock/gtest/libgtest.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/liuxg/demos/weibo/tests/gmock/gtest" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_NO_KEYWORDS" />
+            <Add option="-DGETTEXT_PACKAGE=&quot;unity-scope-weibo&quot;" />
+            <Add option="-DSCOPE_NAME=&quot;weibo.ubuntu_weibo&quot;" />
+            <Add option="-DSCOPE_INSTALL_NAME=&quot;weibo.ubuntu_weibo&quot;" />
+            <Add option="-DSCOPE_ACCOUNTS_NAME=&quot;weibo.ubuntu_accounts&quot;" />
+            <Add directory="/home/liuxg/demos/weibo/include" />
+            <Add directory="/usr/include/arm-linux-gnueabihf/qt5" />
+            <Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore" />
+            <Add directory="/usr/include/unity-scopes-0" />
+            <Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++" />
+            <Add directory="/usr/src/gtest" />
+            <Add directory="/usr/src/gtest/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 gtest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest/fast">
+         <Option output="/home/liuxg/demos/weibo/tests/gmock/gtest/libgtest.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/liuxg/demos/weibo/tests/gmock/gtest" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_NO_KEYWORDS" />
+            <Add option="-DGETTEXT_PACKAGE=&quot;unity-scope-weibo&quot;" />
+            <Add option="-DSCOPE_NAME=&quot;weibo.ubuntu_weibo&quot;" />
+            <Add option="-DSCOPE_INSTALL_NAME=&quot;weibo.ubuntu_weibo&quot;" />
+            <Add option="-DSCOPE_ACCOUNTS_NAME=&quot;weibo.ubuntu_accounts&quot;" />
+            <Add directory="/home/liuxg/demos/weibo/include" />
+            <Add directory="/usr/include/arm-linux-gnueabihf/qt5" />
+            <Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore" />
+            <Add directory="/usr/include/unity-scopes-0" />
+            <Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++" />
+            <Add directory="/usr/src/gtest" />
+            <Add directory="/usr/src/gtest/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest_main">
+         <Option output="/home/liuxg/demos/weibo/tests/gmock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/liuxg/demos/weibo/tests/gmock/gtest" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_NO_KEYWORDS" />
+            <Add option="-DGETTEXT_PACKAGE=&quot;unity-scope-weibo&quot;" />
+            <Add option="-DSCOPE_NAME=&quot;weibo.ubuntu_weibo&quot;" />
+            <Add option="-DSCOPE_INSTALL_NAME=&quot;weibo.ubuntu_weibo&quot;" />
+            <Add option="-DSCOPE_ACCOUNTS_NAME=&quot;weibo.ubuntu_accounts&quot;" />
+            <Add directory="/home/liuxg/demos/weibo/include" />
+            <Add directory="/usr/include/arm-linux-gnueabihf/qt5" />
+            <Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore" />
+            <Add directory="/usr/include/unity-scopes-0" />
+            <Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++" />
+            <Add directory="/usr/src/gtest" />
+            <Add directory="/usr/src/gtest/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 gtest_main" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest_main/fast">
+         <Option output="/home/liuxg/demos/weibo/tests/gmock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/liuxg/demos/weibo/tests/gmock/gtest" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_NO_KEYWORDS" />
+            <Add option="-DGETTEXT_PACKAGE=&quot;unity-scope-weibo&quot;" />
+            <Add option="-DSCOPE_NAME=&quot;weibo.ubuntu_weibo&quot;" />
+            <Add option="-DSCOPE_INSTALL_NAME=&quot;weibo.ubuntu_weibo&quot;" />
+            <Add option="-DSCOPE_ACCOUNTS_NAME=&quot;weibo.ubuntu_accounts&quot;" />
+            <Add directory="/home/liuxg/demos/weibo/include" />
+            <Add directory="/usr/include/arm-linux-gnueabihf/qt5" />
+            <Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore" />
+            <Add directory="/usr/include/unity-scopes-0" />
+            <Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++" />
+            <Add directory="/usr/src/gtest" />
+            <Add directory="/usr/src/gtest/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/liuxg/demos/weibo/tests/gmock/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/usr/src/gtest/src/gtest-all.cc">
+      </Unit>
+      <Unit filename="/usr/src/gtest/src/gtest_main.cc">
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/../../../../usr/src/gmock/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\src\gmock\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/../../../../usr/src/gmock/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\src\gmock\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/../../../../usr/src/gtest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\src\gtest\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/../../../../usr/src/gtest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\src\gtest\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/../../../../usr/src/gtest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\src\gtest\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/../../../../usr/src/gtest/cmake/internal_utils.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\src\gtest\cmake\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/../../../../usr/src/gtest/cmake/internal_utils.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\src\gtest\cmake\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/../../../../usr/src/gtest/cmake/internal_utils.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\src\gtest\cmake\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/cmake/FindIntltool.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/cmake/FindGMock.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/click/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\click\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/click/manifest.json.in">
+          <Option virtualFolder="CMake Files\click\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/click/weibo.provider.in">
+          <Option virtualFolder="CMake Files\click\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/click/weibo.service.in">
+          <Option virtualFolder="CMake Files\click\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/click/weibo.application.in">
+          <Option virtualFolder="CMake Files\click\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/data/logo.png">
+          <Option virtualFolder="CMake Files\data\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/data/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\data\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/po/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\po\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\" />
+      </Unit>
+      <Unit filename="/home/liuxg/demos/weibo/tests/unit/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\unit\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

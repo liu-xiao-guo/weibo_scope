@@ -1,0 +1,21 @@
+{
+    "description": "This is a tutorial for weibo scope",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "@CLICK_ARCH@",
+    "hooks": {
+        "weibo": {
+            "scope": "weibo",
+            "apparmor": "apparmor.json",
+            "account-application": "weibo.application",
+            "account-service": "weibo.service"
+        },
+        "accounts": {
+            "account-provider": "weibo.provider",
+            "account-qml-plugin": "qml-plugin"
+        }
+    },
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "name": "@PACKAGE_NAME@",
+    "title": "weibo scope",
+    "version": "0.1"
+}
